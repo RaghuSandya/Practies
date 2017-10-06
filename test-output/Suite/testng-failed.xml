@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="Chrome"/>
+  <test name="IE Test(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="TestNG.Gid">
+        <methods>
+          <include name="Test"/>
+          <include name="Logout"/>
+          <include name="Logout"/>
+          <include name="Logout"/>
+          <include name="open"/>
+          <include name="open"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- TestNG.Gid -->
+    </classes>
+  </test> <!-- IE Test(failed) -->
+  <test name="Firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="TestNG.Gid">
+        <methods>
+          <include name="Test"/>
+          <include name="Logout"/>
+          <include name="Logout"/>
+          <include name="Logout"/>
+          <include name="open"/>
+          <include name="open"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- TestNG.Gid -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

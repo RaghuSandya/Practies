@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [ravi]" parallel="tests">
+  <test name="sandy(failed)" parallel="tests">
+    <classes>
+      <class name="TestNG.AssertOnGroup">
+        <methods>
+          <include name="test"/>
+          <include name="raghu"/>
+          <include name="test4"/>
+          <include name="test2"/>
+          <include name="giddu"/>
+        </methods>
+      </class> <!-- TestNG.AssertOnGroup -->
+    </classes>
+  </test> <!-- sandy(failed) -->
+</suite> <!-- Failed suite [ravi] -->

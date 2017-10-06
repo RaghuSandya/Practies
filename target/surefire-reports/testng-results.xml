@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15" started-at="2017-10-06T06:38:26Z" finished-at="2017-10-06T06:38:26Z">
+    <groups>
+      <group name="groupTwo">
+        <method signature="BeforeAfter.methodOneFromClassTwo()[pri:0, instance:TestNG.BeforeAfter@2ed94a8b]" name="methodOneFromClassTwo" class="TestNG.BeforeAfter"/>
+        <method signature="BeforeAfter.methodTwoFromClassOne()[pri:0, instance:TestNG.BeforeAfter@2ed94a8b]" name="methodTwoFromClassOne" class="TestNG.BeforeAfter"/>
+      </group> <!-- groupTwo -->
+      <group name="groupOne">
+        <method signature="BeforeAfter.methodOneFromClassOne()[pri:0, instance:TestNG.BeforeAfter@2ed94a8b]" name="methodOneFromClassOne" class="TestNG.BeforeAfter"/>
+      </group> <!-- groupOne -->
+    </groups>
+    <test name="Test" duration-ms="15" started-at="2017-10-06T06:38:26Z" finished-at="2017-10-06T06:38:26Z">
+      <class name="TestNG.BeforeAfter">
+        <test-method status="PASS" signature="runsBeforeSuiteClassOne()[pri:0, instance:TestNG.BeforeAfter@2ed94a8b]" name="runsBeforeSuiteClassOne" is-config="true" duration-ms="16" started-at="2017-10-06T12:08:26Z" finished-at="2017-10-06T12:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runsBeforeSuiteClassOne -->
+        <test-method status="PASS" signature="methodTwoFromClassOne()[pri:0, instance:TestNG.BeforeAfter@2ed94a8b]" name="methodTwoFromClassOne" duration-ms="0" started-at="2017-10-06T12:08:26Z" description="Testing in class one&#039;s method two" finished-at="2017-10-06T12:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTwoFromClassOne -->
+        <test-method status="PASS" signature="methodOneFromClassOne()[pri:0, instance:TestNG.BeforeAfter@2ed94a8b]" name="methodOneFromClassOne" duration-ms="0" started-at="2017-10-06T12:08:26Z" description="Testing in class one&#039;s method one" finished-at="2017-10-06T12:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodOneFromClassOne -->
+        <test-method status="PASS" signature="methodOneFromClassTwo()[pri:0, instance:TestNG.BeforeAfter@2ed94a8b]" name="methodOneFromClassTwo" duration-ms="0" started-at="2017-10-06T12:08:26Z" description="Testing in class two&#039;s method one" finished-at="2017-10-06T12:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodOneFromClassTwo -->
+        <test-method status="PASS" signature="runsAfterSuiteClassOne()[pri:0, instance:TestNG.BeforeAfter@2ed94a8b]" name="runsAfterSuiteClassOne" is-config="true" duration-ms="0" started-at="2017-10-06T12:08:27Z" finished-at="2017-10-06T12:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runsAfterSuiteClassOne -->
+      </class> <!-- TestNG.BeforeAfter -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

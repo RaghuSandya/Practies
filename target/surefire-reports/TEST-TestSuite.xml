@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.735" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="18.028" tests="5" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -26,26 +26,24 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\Baburao\Downloads\Compressed\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:\Users\Baburao\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8814975946140119133.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\Baburao\Downloads\Compressed\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;%MAVEN_HOME%;%JAVA_HOME%;;."/>
-    <property name="maven.conf" value="C:\Users\Baburao\Downloads\Compressed\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\Baburao\Downloads\Compressed\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;%MAVEN_HOME%;%JAVA_HOME%;C:\Program Files\Git\cmd;C:\Users\Baburao\Downloads\Compressed\eclipse-jee-neon-3-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="6.1"/>
-    <property name="library.jansi.path" value="C:\Users\Baburao\Downloads\Compressed\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
     <property name="user.home" value="C:\Users\Baburao"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="Baburao"/>
-    <property name="java.class.path" value="C:\Users\Baburao\Downloads\Compressed\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="/C:/Users/Baburao/Downloads/Compressed/eclipse-jee-neon-3-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher compile test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -53,18 +51,75 @@
     <property name="java.version" value="1.8.0_144"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\Baburao\Downloads\Compressed\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin\.."/>
+    <property name="maven.home" value="C:\Users\Baburao\workspace\Program\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="methodOneFromClassOne" classname="TestNG.BeforeAfter" time="0"/>
+  <testcase name="methodOneFromClassOne" classname="TestNG.BeforeAfter" time="0.002"/>
   <testcase name="methodOneFromClassTwo" classname="TestNG.BeforeAfter" time="0"/>
   <testcase name="methodTwoFromClassOne" classname="TestNG.BeforeAfter" time="0"/>
+  <testcase name="Book" classname="TestNG.FaceBok" time="16.257">
+    <failure message="Given xpath expression &quot;//input[@type=&apos;submit&apos;]&apos;]&quot; is invalid: SyntaxError: The expression is not a legal expression. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;&#10;System info: host: &apos;WIN-R1JBAO1CNPS&apos;, ip: &apos;172.20.37.201&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;&#10;Driver info: org.openqa.selenium.firefox.MarionetteDriver&#10;Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, webdriver.remote.quietExceptions=true, appBuildId=20160916101415, version=49.0, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=1656, browserVersion=49.0, platformVersion=6.1, XULappId={XXXXXXXX-XXXX-XXXX-XXXX-XXXXa9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop, firefox_profile=UEsDBBQAAAAIAIBpS0uIUd2BCAcAA...}]&#10;Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2209bb05&#10;*** Element info: {Using=xpath, value=//input[@type=&apos;submit&apos;]&apos;]}&#10;Command duration or timeout: 0 milliseconds" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: 
+Given xpath expression "//input[@type='submit']']" is invalid: SyntaxError: The expression is not a legal expression. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'WIN-R1JBAO1CNPS', ip: '172.20.37.201', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.MarionetteDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, webdriver.remote.quietExceptions=true, appBuildId=20160916101415, version=49.0, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=1656, browserVersion=49.0, platformVersion=6.1, XULappId={XXXXXXXX-XXXX-XXXX-XXXX-XXXXa9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop, firefox_profile=UEsDBBQAAAAIAIBpS0uIUd2BCAcAA...}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2209bb05
+*** Element info: {Using=xpath, value=//input[@type='submit']']}
+Command duration or timeout: 0 milliseconds
+	at TestNG.FaceBok.Book(FaceBok.java:28)
+Caused by: org.openqa.selenium.InvalidSelectorException: 
+Given xpath expression "//input[@type='submit']']" is invalid: SyntaxError: The expression is not a legal expression. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'WIN-R1JBAO1CNPS', ip: '172.20.37.201', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.MarionetteDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, webdriver.remote.quietExceptions=true, appBuildId=20160916101415, version=49.0, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=1656, browserVersion=49.0, platformVersion=6.1, XULappId={XXXXXXXX-XXXX-XXXX-XXXX-XXXXa9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop, firefox_profile=UEsDBBQAAAAIAIBpS0uIUd2BCAcAA...}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2209bb05
+*** Element info: {Using=xpath, value=//input[@type='submit']']}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'BABURAO-PC', ip: '192.168.1.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: EventFiringWebDriver
+</failure>
+    <system-err><![CDATA[Oct 11, 2017 6:42:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="Links" classname="TestNG.AllLink" time="17.162">
+    <failure message="&#10;Method public void TestNG.AllLink.Links(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.rmi.UnexpectedException,java.net.MalformedURLException requires a @DataProvider named : hardCodeBrowser" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Method public void TestNG.AllLink.Links(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.rmi.UnexpectedException,java.net.MalformedURLException requires a @DataProvider named : hardCodeBrowser
+</failure>
+    <system-err><![CDATA[[Utils] [ERROR] [Error] org.testng.TestNGException: 
+Method public void TestNG.AllLink.Links(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.rmi.UnexpectedException,java.net.MalformedURLException requires a @DataProvider named : hardCodeBrowser
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:336)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:498)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+]]></system-err>
+  </testcase>
 </testsuite>

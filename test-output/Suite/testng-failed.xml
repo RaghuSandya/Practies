@@ -1,37 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <parameter name="browser" value="Chrome"/>
-  <test name="IE Test(failed)" parallel="tests">
-    <parameter name="browser" value="IE"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
     <classes>
-      <class name="TestNG.Gid">
+      <class name="TestNG.AllLink">
         <methods>
-          <include name="Test"/>
-          <include name="Logout"/>
-          <include name="Logout"/>
-          <include name="Logout"/>
-          <include name="open"/>
-          <include name="open"/>
-          <include name="open"/>
+          <include name="Links"/>
         </methods>
-      </class> <!-- TestNG.Gid -->
-    </classes>
-  </test> <!-- IE Test(failed) -->
-  <test name="Firefox Test(failed)" parallel="tests">
-    <parameter name="browser" value="Firefox"/>
-    <classes>
-      <class name="TestNG.Gid">
+      </class> <!-- TestNG.AllLink -->
+      <class name="TestNG.FBPoM">
         <methods>
-          <include name="Test"/>
-          <include name="Logout"/>
-          <include name="Logout"/>
-          <include name="Logout"/>
-          <include name="open"/>
-          <include name="open"/>
-          <include name="open"/>
+          <include name="book"/>
         </methods>
-      </class> <!-- TestNG.Gid -->
+      </class> <!-- TestNG.FBPoM -->
+      <class name="TestNG.FaceBok">
+        <methods>
+          <include name="Book" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNG.FaceBok -->
+      <class name="TestNG.BeforeAfter">
+        <methods>
+          <include name="runsBeforeSuiteClassOne"/>
+          <include name="runsAfterSuiteClassOne"/>
+        </methods>
+      </class> <!-- TestNG.BeforeAfter -->
     </classes>
-  </test> <!-- Firefox Test(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

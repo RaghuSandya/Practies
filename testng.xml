@@ -3,7 +3,10 @@
 <suite name="Suite" parallel="tests">
   <test name="Test">
     <classes>
-      <class name="TestNG.BeforeAfter"/>
+      <class name="TestNG.BeforeAfter" />
+      <class name="TestNG.FaceBok"/>
+      <class name="TestNG.AllLink"/>
+      <class name="TestNG.FBPoM"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

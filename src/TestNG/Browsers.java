@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 //import java.sql.Driver;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -15,7 +16,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class Browsers {
   @Test(priority=3)
   public void you() {
-	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Baburao\\Downloads\\Compressed\\chromedriver_win32\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Baburao\\workspace\\Program\\libs\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.youtube.com");
@@ -37,6 +38,8 @@ public class Browsers {
   public void you3() {
 	  System.setProperty("webdriver.ie.driver", "C:\\Users\\Baburao\\workspace\\Program\\libs\\IEDriverServer.exe");
 		WebDriver driver=new InternetExplorerDriver();
+		Alert alert=driver.switchTo().alert();
+		alert.accept();
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.youtube.com");
 		driver.manage().window().maximize();

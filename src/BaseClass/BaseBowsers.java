@@ -16,7 +16,7 @@ import org.testng.annotations.AfterClass;
 public class BaseBowsers {
 	public static WebDriver driver;
   
-//public static String browser="chrome";
+public static String browser="Firefox";
 	
   @Parameters("browser")
   

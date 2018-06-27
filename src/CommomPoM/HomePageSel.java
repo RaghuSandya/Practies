@@ -1,10 +1,14 @@
-package Utils;
+package CommomPoM;
+
+import java.awt.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class HomePageSel {
 	
+	
+
 	public WebDriver driver;
 
 	// Globar variable defined to all page level webelement address through Xpath locators.
@@ -54,9 +58,5 @@ public class HomePageSel {
 			System.out.println("Title matches.."+actualTitle);
 		}
 	}
-	
-	
-	
-	
 
 }

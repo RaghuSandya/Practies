@@ -1,2 +1,66 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">15</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">TestNG.BeforeAfter</td><td><a href="#m0">methodOneFromClassOne</a></td><td rowspan="1">1507271906962</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m1">methodOneFromClassTwo</a></td><td rowspan="1">1507271906962</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m2">methodTwoFromClassOne</a></td><td rowspan="1">1507271906962</td><td rowspan="1">0</td></tr></tbody></table><h2>Test</h2><h3 id="m0">TestNG.BeforeAfter#methodOneFromClassOne</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">TestNG.BeforeAfter#methodOneFromClassTwo</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">TestNG.BeforeAfter#methodTwoFromClassOne</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">2</td><td class="num">17,203</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestNG.AllLink</td><td><a href="#m0">Links</a></td><td rowspan="1">1507727542563</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">TestNG.FaceBok</td><td><a href="#m1">Book</a></td><td rowspan="1">1507727525402</td><td rowspan="1">16237</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">TestNG.BeforeAfter</td><td><a href="#m2">methodOneFromClassOne</a></td><td rowspan="1">1507727525387</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m3">methodOneFromClassTwo</a></td><td rowspan="1">1507727525391</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m4">methodTwoFromClassOne</a></td><td rowspan="1">1507727525392</td><td rowspan="1">0</td></tr></tbody></table><h2>Test</h2><h3 id="m0">TestNG.AllLink#Links</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">TestNG.FaceBok#Book</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>firefox</td><td>49.0</td><td>Windows 7</td><td>public void TestNG.FaceBok.Book(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.FileNotFoundException,java.io.IOException</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: Given xpath expression &quot;//input[@type=&apos;submit&apos;]&apos;]&quot; is invalid: SyntaxError: The expression is not a legal expression. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;WIN-R1JBAO1CNPS&apos;, ip: &apos;172.20.37.201&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.MarionetteDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, webdriver.remote.quietExceptions=true, appBuildId=20160916101415, version=49.0, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=1656, browserVersion=49.0, platformVersion=6.1, XULappId={XXXXXXXX-XXXX-XXXX-XXXX-XXXXa9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop, firefox_profile=UEsDBBQAAAAIAIBpS0uIUd2BCAcAA...}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2209bb05
+*** Element info: {Using=xpath, value=//input[@type=&apos;submit&apos;]&apos;]}
+Command duration or timeout: 0 milliseconds
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at CommomPoM.FaceBookPoM.Login(FaceBookPoM.java:29)
+	at TestNG.FaceBok.Book(FaceBok.java:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.InvalidSelectorException: Given xpath expression &quot;//input[@type=&apos;submit&apos;]&apos;]&quot; is invalid: SyntaxError: The expression is not a legal expression. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;WIN-R1JBAO1CNPS&apos;, ip: &apos;172.20.37.201&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.MarionetteDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, webdriver.remote.quietExceptions=true, appBuildId=20160916101415, version=49.0, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=1656, browserVersion=49.0, platformVersion=6.1, XULappId={XXXXXXXX-XXXX-XXXX-XXXX-XXXXa9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop, firefox_profile=UEsDBBQAAAAIAIBpS0uIUd2BCAcAA...}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2209bb05
+*** Element info: {Using=xpath, value=//input[@type=&apos;submit&apos;]&apos;]}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;BABURAO-PC&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">TestNG.BeforeAfter#methodOneFromClassOne</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">TestNG.BeforeAfter#methodOneFromClassTwo</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">TestNG.BeforeAfter#methodTwoFromClassOne</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

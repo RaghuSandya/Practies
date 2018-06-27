@@ -24,9 +24,9 @@ public class BrowserHooks  {
     public String buildTag = System.getenv("BUILD_TAG");
 
 
-    public String username = "raghusandya";
+    public String username = "manikumar";
 
-    public String accesskey = "8982187e-b404-4250-868a-350db3fc6b21";
+    public String accesskey = "88b0620f-638c-42b0-bdba-0b461cbce15e";
 
 
     /**
@@ -48,19 +48,22 @@ public class BrowserHooks  {
     @DataProvider(name = "hardCodedBrowsers", parallel = true)
     public static Object[][] sauceBrowserDataProvider(Method testMethod) {
         return new Object[][]{
-               
+                new Object[]{"MicrosoftEdge", "14.14393", "Windows 10"},
+                new Object[]{"firefox", "49.0", "Windows 10"},
+                new Object[]{"internet explorer", "11.0", "Windows 7"},
+                new Object[]{"safari", "10.0", "OS X 10.11"},
                 new Object[]{"chrome", "54.0", "OS X 10.10"},
-                new Object[]{"firefox", "47", "Windows 7"},
+                new Object[]{"firefox", "latest-1", "Windows 7"},
         };
     }
 
     
-    @DataProvider(name = "SoftCodeProvider", parallel = true)
+    @DataProvider(name = "oneBrowser", parallel = true)
     public static Object[][] sauceBrowse(Method testMethod) {
         return new Object[][]{
-                new Object[]{"MicrosoftEdge", "14.14393", "Windows 8"},
-                new Object[]{"firefox", "47", "Windows 10"},
-                new Object[]{"internet explorer", "11.0", "Windows 7"},
+                
+        	 new Object[]{"firefox", "latest-1", "Windows 7"},
+                
         };
     }
     /**

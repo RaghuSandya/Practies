@@ -31,6 +31,8 @@ public class GcrReg {
 		Select dropdown=new Select(driver.findElement(By.name("country")));
 		dropdown.selectByVisibleText("India");
 		
+		//dropdown.selectByIndex(2);
+		
 		driver.findElement(By.name("telephone")).sendKeys("1236547890");
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("8142586250");
 	

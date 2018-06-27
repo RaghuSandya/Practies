@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="goog">
+      <class name="DataDriven.ExelWrite">
         <methods>
-          <include name="openSeleniumRaghu" invocation-numbers="1 0"/>
-          <include name="tearDown"/>
+          <include name="Browser"/>
+          <include name="Fb"/>
         </methods>
-      </class> <!-- goog -->
+      </class> <!-- DataDriven.ExelWrite -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

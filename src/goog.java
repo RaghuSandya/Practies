@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import BaseClass.BrowserHooks;
+import CommomPoM.HomePageSel;
 import Utils.Autoconstants;
-import Utils.HomePageSel;
 import Utils.ProHandle;
 
 

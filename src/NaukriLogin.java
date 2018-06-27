@@ -26,7 +26,7 @@ public class NaukriLogin {
 		driver.findElement(By.xpath("//a[@id='uploadLink']")).click();
 		
 		
-		driver.findElement(By.xpath("//input[@id='attachCV']")).sendKeys("C:\\Users\\Baburao\\Downloads\\giddu.EE.doc");
+		//driver.findElement(By.xpath("//input[@id='attachCV']")).sendKeys("C:\\Users\\Baburao\\Downloads\\giddu.EE.doc");
 		
 		/*String mainPage =driver.getWindowHandle();
 		Alert alt=driver.switchTo().alert();

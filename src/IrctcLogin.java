@@ -11,7 +11,7 @@ public class IrctcLogin {
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://www.google.co.in/");
 		driver.get("https://www.irctc.co.in");
-		//Thread.sleep(5000);
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("//input[@name='j_username']")).sendKeys("giddaiah7");
 		driver.findElement(By.xpath("//input[@class='loginPassword']")).sendKeys("gcw210");
 		
@@ -34,7 +34,7 @@ public class IrctcLogin {
 		driver.findElement(By.xpath("//input[@id='jpform:jpsubmit']")).click();
 		
 		/*driver.findElement(By.className("ui-datepicker-trigger")).click();
-	driver.findElement(By.className("ui-state-default ui-state-hover")).click();*/
+	    driver.findElement(By.className("ui-state-default ui-state-hover")).click();*/
 		
 	String conformation=driver.findElement(By.className("logheading")).getText();
 	if(conformation.equals("train between stations")){
